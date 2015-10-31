@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Pavel Tisunov.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I love building software solutions to real problems, my areas of interest are mobile applications, startups, travel, snowboarding, video shooting and editing, drones.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I've been building software since I was 14 starting from ZX Spectrum. Right now I'm builing iOS and Rails applications, learning Machine Learning, exploring AI especially Recurrent Neural Networks.

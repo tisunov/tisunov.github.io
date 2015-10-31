@@ -2,7 +2,9 @@
 <html>
 
   {% include head.html %}
-
+  {% if jekyll.environment == 'production' %}
+    {% include google_analytics.html %}
+  {% endif %}
   <body>
 
     {% include header.html %}

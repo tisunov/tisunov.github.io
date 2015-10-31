@@ -27,7 +27,15 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+.center {
+  text-align: center;
+  em {
+    display: block;
+    font-size: 14px;
+    color: #849496;
+    margin-top: 0.8em
+  }
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -48,5 +56,5 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "_solarized-dark"
 ;
