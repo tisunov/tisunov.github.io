@@ -53,6 +53,8 @@ Then I disable double explosion by keeping track if explosions are in progress a
 
 {% endhighlight %}
 
+Code below goes inside **startExplosions** method. 
+
 Next I want to get all completely visible cells, so we won't explode cells partially behind navigation and tab bars:
 
 {% highlight objective-c %}
