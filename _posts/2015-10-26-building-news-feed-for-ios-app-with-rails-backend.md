@@ -542,7 +542,7 @@ namespace :news_items do
 
     # Generate NewsItem new_product items
     Product.where('created_at >= ?', 1.month.ago.beginning_of_day).each do |product|
-      warehouse_product_price = WarehouseProductPrice.where('DATE(created_at) = ?', product.created_at.to_date).first
+      warehouse_product_price = WarehouseProductPrice.where('DATE(created_at) = ? AND product_id = ?', product.created_at.to_date, product.id).first
       price = warehouse_product_price ? warehouse_product_price.price : product.store_price
 
       NewsItem.new_product(product, price, product.created_at)
