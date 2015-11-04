@@ -363,7 +363,7 @@ I'm using custom coach mark _CoachMarkBodyView_ implementation with colorful but
 
 ## Don't annoy user
 
-Let's be nice to our users and don't annoy them with repetetive instructions. If user skips instructions or seen at least one coach mark for the given view controller, we will not show instructions next time.
+Let's be nice to our users and don't annoy them with repetitive instructions. If user skips instructions or seen at least one coach mark for the given view controller, we will not show instructions next time.
 
 I created _InstructionScreens_ enum and default initializer to map view controllers to enum values:
 
