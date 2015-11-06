@@ -105,9 +105,9 @@ class GroserUITests: XCTestCase {
 
 {% endhighlight %}
 
-## Instrument app to cooperate with UI Test suite
+## Instrument the app to cooperate with UI Test suite
 
-I want to disable coach marks added in [previous post]({% post_url 2015-11-02-adding-instructional-coach-marks-to-ios-app-with-swift %}). Let's static method into `GRGroser` singleton and check it in `GRUser` extension to disable coach marks:
+I want to disable coach marks added in [previous post]({% post_url 2015-11-02-adding-instructional-coach-marks-to-ios-app-with-swift %}) for UI Test. Let's static method into `GRGroser` singleton and check it in `GRUser` extension to disable coach marks:
 
 **GRGroser.m**
 {% highlight objective-c %}
