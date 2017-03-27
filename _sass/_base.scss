@@ -8,7 +8,18 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+hr {
+    margin-bottom: 25px;
+    background: #ddd;
+    color: #ddd;
+    height: 1px;
+    border: none;
+    margin: 0 0 1.45em;
+}
 
+strong {
+    font-weight: 500;
+}
 
 /**
  * Basic styling
