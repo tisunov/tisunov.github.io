@@ -144,7 +144,7 @@ Go to [Google Maps SDK for iOS](https://developers.google.com/maps/documentation
 Replace `GOOGLE_MAPS_API_KEY` value in APAddressPicker.m with your API key.
 
 **APAddressPicker.m**
-{% highlight objective-c %}
+{% highlight objc %}
 #define GOOGLE_MAPS_API_KEY @"AFzaShA4ymE5MoOkmTcxq-R1jLFb1uJd_W4R3TA"
 {% endhighlight %}
 
@@ -155,7 +155,7 @@ Go to [Foursquare API](https://developer.foursquare.com/), signup and register y
 Replace `FOURSQUARE_CLIENT_ID` & `FOURSQUARE_CLIENT_SECRET` values in APSearchPlacesViewController.m with your own.
 
 **APSearchPlacesViewController.m**
-{% highlight objective-c %}
+{% highlight objc %}
 #define FOURSQUARE_CLIENT_ID @"SAKDJNJK5IHY0SMMHIGT213S100HX3NGRASKJKNWJK3342J"
 #define FOURSQUARE_CLIENT_SECRET @"ASKDNJSQF5NRXWJBLZOH3J1YZ1VGGCDMKB2LJCXESSJKNDJK"
 {% endhighlight %}
@@ -177,7 +177,7 @@ Select `View` you just drag & dropped, open 'Identity Inspector' (press `Cmd+Alt
 ### How to create control in code
 
 **Swift**
-{% highlight objective-c %}
+{% highlight swift %}
 
 class DemoViewController: UIViewController {
 
@@ -198,7 +198,7 @@ class DemoViewController: UIViewController {
 Access **APAddressPicker::selectedAddress** property of type _APAddress_, it always contains selected address.
 
 **APAddress.h**
-{% highlight objective-c %}
+{% highlight objc %}
 @interface APAddress : NSObject
 
 // Convenience constructors
@@ -239,7 +239,7 @@ Control uses 6 icons which you can replace with your own. You can find them in `
 Change control's color to match your app look. Find color theme in `APColorTheme` class.
 
 **APColorTheme.h**
-{% highlight objective-c %}
+{% highlight objc %}
 
 @interface APColorTheme : NSObject
 
@@ -280,7 +280,7 @@ Change control's color to match your app look. Find color theme in `APColorTheme
 The default behaviour is to center map on San Francisco, CA coordinates, query current user location using Location Services and move map to the current location. You can change default map location by setting latitude and longitude at the top of `APAddressPicker.m`
 
 **APAddressPicker.m**
-{% highlight objective-c %}
+{% highlight objc %}
 
 #define DEFAULT_MAP_LATITUDE 37.774929
 #define DEFAULT_MAP_LONGITUDE -122.419416

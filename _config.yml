@@ -7,12 +7,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tisunov.com" # the base hostname & protocol for your site
 twitter_username: ptisunov
 github_username:  tisunov
-highlighter: pygments
+highlighter: rouge #pygments
 
 # Redcarpet gives you github style fenced code blocks using triple-backtick notation.
 # redcarpet
 markdown: kramdown
 
-# kramdown:
-#   input: GFM
-#   syntax_highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge#pygments
