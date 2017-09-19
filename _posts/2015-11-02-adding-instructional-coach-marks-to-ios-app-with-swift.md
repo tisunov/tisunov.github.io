@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Adding instructional coach marks to iOS app with Swift
 categories: []
 tags: []

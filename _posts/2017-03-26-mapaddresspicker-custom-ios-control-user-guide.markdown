@@ -1,6 +1,8 @@
 ---
 title: MapAddressPicker iOS Control User Guide
-layout: page
+header:
+  teaser: /assets/map-address-picker/control-sf.jpg
+layout: single
 ---
 
 Thank you for purchasing my iOS control. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form [here](http://codecanyon.net/user/ptisunov){:target="_blank"}. Thanks so much!
@@ -10,6 +12,18 @@ Thank you for purchasing my iOS control. If you have any questions that are beyo
 
 * Table of Contents
 {:toc}
+
+## Quick Start
+
+It takes only 2 minutes to add control into your app.
+
+### Step 1: Drag and Drop Source Code
+
+Unpack source code and drag and drop `AddressPickerControl` folder into your Xcode project.
+
+### Step 2: Install Cocoapods libraries
+
+### Step 3: Drop UIView into new View Controller
 
 ## Overview
 

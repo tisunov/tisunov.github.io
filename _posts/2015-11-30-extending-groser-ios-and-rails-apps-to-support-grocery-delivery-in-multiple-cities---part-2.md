@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Extending Groser iOS and Rails apps to support grocery delivery in multiple cities - Part 2
 categories: []
 tags: []

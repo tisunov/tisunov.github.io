@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 3D Touch Peek and Pop with custom CollectionViewLayout
 categories: []
 tags: []

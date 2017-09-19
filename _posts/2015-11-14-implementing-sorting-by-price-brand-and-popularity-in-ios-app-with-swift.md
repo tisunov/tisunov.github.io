@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Implementing sorting by product price and brand in iOS app with Swift
 categories: []
 tags: []

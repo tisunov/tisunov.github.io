@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Building News Feed for iOS app with Rails backend
 categories: []
 tags: []

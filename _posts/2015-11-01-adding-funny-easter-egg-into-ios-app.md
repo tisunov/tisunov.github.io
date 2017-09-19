@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Adding funny Easter egg into iOS app
 categories: []
 tags: []

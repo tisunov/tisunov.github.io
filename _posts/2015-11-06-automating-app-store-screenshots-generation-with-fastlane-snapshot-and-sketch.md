@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Automating App Store screenshots generation with Fastlane snapshot and Sketch
 categories: []
 tags: []

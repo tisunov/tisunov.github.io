@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Adding 3D Touch Peek and Pop to preview departments and shelves in our iOS app
 categories: []
 tags: []

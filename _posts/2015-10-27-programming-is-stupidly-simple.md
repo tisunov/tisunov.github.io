@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Programming is Ridiculously simple
 categories: []
 tags: []
