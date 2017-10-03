@@ -160,7 +160,7 @@ I often times keep logs console open to see how tracking is working and what new
 
 I started wondering, would not it be cool to see where in the world people are tracking packages with Parcels.
 
-So just for fun I added [WebSockets](https://github.com/websockets/ws) support to API, and with help of [Leaflet.js](https://github.com/Leaflet/Leaflet) and (GeoIP)[https://github.com/bluesmoon/node-geoip] show people on a world map tracking packages in real time.
+So just for fun I added [WebSockets](https://github.com/websockets/ws) support to API, and with help of [Leaflet.js](https://github.com/Leaflet/Leaflet) and [GeoIP](https://github.com/bluesmoon/node-geoip) show people on a world map tracking packages in real time.
 
 Check it out [here](http://parcelsapp.com/en)!
 
