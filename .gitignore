@@ -3,3 +3,4 @@ _drafts
 .sass-cache
 *.sublime*
 _post_examples
+*.sketch
